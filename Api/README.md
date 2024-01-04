@@ -8,14 +8,14 @@ python -m pip install --upgrade pip
 .\venv\Scripts\activate
 
 ```
-## 3. Install the requirements
+## 2. Install the requirements
 ```
 cd App
 pip install -r requirements.txt
 
 ```
 
-## 2. Run Flask server on debug mode
+## 3. Run Flask server on debug mode
 ```
 
 flask run --debug
