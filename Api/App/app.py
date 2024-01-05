@@ -18,7 +18,7 @@ model = joblib.load('model.pkl')
 
 @app.route('/')
 def home():
-    return render_template('home.html', image = latest_image_path)
+    return render_template('home.html')
 
 
 @app.route('/solution')

@@ -1,5 +1,46 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<h1 class="sub-topic">Technical Overview and Implementation</h1>
+<img class="vector" src="/static/img/Implementation.png">
+<p class="desc-2">
+    The proposed product features a compact processing unit equipped with essential components, including inbuilt Wi-Fi,
+    a location tracker, an acceleration sensor, a real-time clock, a display, tilt sensors, buttons, and cameras. The
+    cameras, strategically mounted on the vehicle doors, will accurately count passengers entering and exiting at each
+    stop.
+    <br>
+    <br>
 
+    The system logs data such as acceleration, time, and connection status, which is then transmitted via Wi-Fi to the
+    central unit. The central unit aggregates data from all vehicles on the route, facilitating real-time communication
+    and coordination. Using this collective data, the system recalculates optimal speeds for each vehicle, displaying
+    the information on the driver's interface.
+    <br>
+    <br>
+    Additionally, the product includes an emergency button for drivers to instantly inform the central unit of
+    emergencies or breakdowns. The tilt sensor sends a signal to the central unit if tilting is detected, providing an
+    added layer of safety monitoring. This comprehensive set of features enhances real-time responsiveness,
+    coordination, and safety, contributing to the overall efficiency of the public transportation system
+</p>
+<h2>User Scenario</h2>
+<p class="desc-2">
+    This innovative product caters to three distinct user aspects, offering tailored functionalities for each user
+    group. For the driver, a display featuring maximum and minimum speed limits ensures adherence to speed regulations,
+    optimizing the safety and efficiency of the vehicle. Passengers benefit from reduced wait times through the ability
+    to inform the public vehicle of their presence, particularly useful during peak hours. The administration, equipped
+    with tools to locate and monitor vehicles, gains the ability to make informed decisions.
+    <br>
+    <br>
+    In the system's operational scenario, all vehicles initially follow a base schedule. As a vehicle accumulates a
+    higher passenger count, it autonomously increases its speed, optimizing efficiency. Once the passenger limit is
+    reached, the subsequent vehicle in line adjusts its speed to pick up additional passengers at stops. Speed is
+    further influenced by the number of waiting passengers, ensuring a responsive system. Conversely, if a vehicle has
+    insufficient passengers, it slows down, and after reaching a certain threshold, the subsequent vehicle also adjusts
+    its speed accordingly. This dynamic approach effectively addresses both peak and non-peak passenger issues,
+    providing an adaptive and efficient public transportation experience. The integration of real-time location data and
+    passenger-initiated notifications significantly reduces wait times for passengers, contributing to an overall
+    improvement in the efficiency and responsiveness of the transportation system.
+
+
+</p>
 {% endblock %}

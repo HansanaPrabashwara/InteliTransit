@@ -1,5 +1,54 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<h1 class="sub-topic">Proposed solution</h1>
+<img class="vector" src="/static/img/technology.png">
+<p class="desc-2">
+    The proposed solution introduces a dynamic and responsive system for public transportation that leverages IoT
+    technology to address the identified issues. Initially, all vehicles will follow a base schedule to maintain a
+    structured framework. To manage peak drives effectively, the solution involves tracking the number of passengers on
+    board each public vehicle. As the passenger count approaches capacity, the vehicle is permitted to increase its
+    speed, optimizing efficiency. Furthermore, if the first vehicle reaches its passenger limit, the subsequent vehicle
+    adjusts its speed to pick up nearby passengers, prioritizing areas with higher demand. Passengers waiting at stops
+    can notify vehicles of their presence, influencing the speed of the approaching vehicle based on real-time demand.
+    <br>
+    <br>
+
+    Similarly, to address the issue of passenger-less drives, the system employs a mechanism where vehicles slow down if
+    they have fewer passengers than required. The following vehicle adjusts its speed accordingly, promoting a balanced
+    distribution of passengers among vehicles. The decision-making process incorporates real-time data on passenger
+    counts and waiting passengers, ensuring a responsive and adaptive transportation network.
+    <br>
+    <br>
+    All relevant information, including real-time location data with timestamps, is communicated via the Internet and
+    monitored by a supervising body to prevent inaccuracies. This transparency enhances accountability and ensures the
+    effective execution of the proposed measures.
+    <br>
+    <br>
+    By providing passengers with real-time location data through the internet, the solution enhances user experience,
+    reducing wait times and offering visibility into the arrival times of subsequent vehicles. Overall, this
+    comprehensive approach not only addresses the identified problems but aligns with Industry 4.0 principles,
+    showcasing the transformative potential of IoT in optimizing public transportation for efficiency, responsiveness,
+    and passenger satisfaction
+
+</p>
+<h2>Uniqueness of the Solution</h2>
+<p class="desc-2">
+    The proposed solution differs from existing products, such as those using RFID technology or dynamic scheduling, by
+    uniquely addressing both peak and non-peak drives. Unlike other solutions that focus on tracking arrivals or
+    adjusting schedules based on unexpected events, our product dynamically adjusts vehicle speeds in response to the
+    number of passengers on board and waiting.
+    <br>
+    <br>
+    A key distinction is our real-time responsiveness to passenger demand, considering both current passenger counts and
+    those waiting at stops. This ensures optimal vehicle utilization, preventing overloading during peak hours and
+    improving efficiency during non-peak times—a feature not present in other solutions.
+    <br>
+    <br>
+    Additionally, our decentralized decision-making empowers individual vehicles to make real-time adjustments,
+    enhancing adaptability and responsiveness. The solution's primary focus on reducing overall time wasted in
+    transportation sets it apart, providing a user-centric approach to public transportation optimization.
+
+</p>
 
 {% endblock %}
