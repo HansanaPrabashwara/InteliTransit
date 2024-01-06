@@ -4,8 +4,8 @@
 
 cd Api
 py -3.8 -m venv venv
-python -m pip install --upgrade pip
 .\venv\Scripts\activate
+python -m pip install --upgrade pip
 
 ```
 ## 2. Install the requirements
