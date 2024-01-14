@@ -3,14 +3,65 @@
 {% block content %}
 
 
+
+      <h1 class="sub-topic">Real Time Data</h1>
+
+
+
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="desc-3">
-      <h1>Latest Image</h1>
-      <h5 class="w3-padding-top-32">Image Name : {{name}}</b></h5>
+      <h2>Sensor Data</h2>
+      <div style="margin: 3rem;"></div>
+
+      <iframe width="75%" height="500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_OAFNsJuy0SeXk5ahlUhe-t-QjlK01bmifjxuc0vhxpCS1Ifo0D8JWfxNlVkTS8h2zPw7I5uqvtJc/pubhtml?widget=true&amp;headers=false"></iframe>
+      <div>
+        <a style="text-decoration: none; font-size: 1rem;" target=”_blank” href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_OAFNsJuy0SeXk5ahlUhe-t-QjlK01bmifjxuc0vhxpCS1Ifo0D8JWfxNlVkTS8h2zPw7I5uqvtJc/pubhtml">View Spreadsheet</a>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="desc-3">
+      <h2>Image Data</h2>
+
+      <div style="margin: 3rem;"></div>
+
+
+      <table>
+        
+        
+        <tbody>
+            <tr>
+                <td>Image Name</td>
+                <td> {{name}}</td>
+            </tr>
+            <tr>
+              <td>Number of people in the image</td>
+              <td> {{count}}</td>
+            </tr>
+            <tr>
+              <td>Uplaod time</td>
+              <td>{{upload_time}}</td>
+            </tr>
+            <tr>
+                <td>Last refreshed</td>
+                <td>{{refresh_time}}</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+
+    </table>
+
+
+      <!-- <h5 class="w3-padding-top-32">Image Name : {{name}}</b></h5>
       <h5>Number of people in the image : {{count}}</b></h5>
       <h5>Uplaod time : {{upload_time}}</h5>
-      <h5>Last refreshed: {{refresh_time}}</h5>
+      <h5>Last refreshed: {{refresh_time}}</h5> -->
       <!-- <h5>Prediction :</h5>
   
         

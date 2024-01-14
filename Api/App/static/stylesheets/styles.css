@@ -166,8 +166,11 @@ nav ul li a:active {
 }
 
 .desc-2 {
-    font-size: 1.5em;
-    margin: 3em;
+    font-size: 1.1em;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    width: 60%;
     text-align: justify;
     color: #393E41
 }
@@ -181,4 +184,30 @@ nav ul li a:active {
 h2 {
     text-align: justify;
     margin-left: 3em;
+}
+
+
+table {
+    margin:auto;
+    font-size: 1rem;
+    border-collapse: collapse; /* Collapse borders to remove default spacing */
+    width: 40%; /* Make the table fill the container width */
+    border-spacing: 0; /* Set border-spacing to zero to hide margins */
+    
+}
+
+th, td {
+    border: none; /* Remove borders for cells */
+    padding: 8px; /* Add padding for content inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+footer {
+    background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px; /* Increase the padding to increase the height */
+            bottom: 0;
+            width: 100%;
+
 }
